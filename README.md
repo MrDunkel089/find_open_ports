@@ -1,5 +1,5 @@
 
-## Where can i use this?
+## How can i use this?
 This is a standard Python script, so it should work on Windows, Mac, and Linux. However, I have only tested it on Ubuntu.
 
 
