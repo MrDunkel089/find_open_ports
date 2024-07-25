@@ -48,13 +48,13 @@ This is a standard Python script, so it should work on Windows, Mac, and Linux. 
    - Make the script executable:
 
      ```
-     sudo chmod +x find_open_ports/fop.py
+     sudo chmod +x fop.py
      ```
 
    - Move the script to `/usr/local/bin`:
 
      ```
-     sudo mv find_open_ports/fop.py /usr/local/bin/fop
+     sudo mv fop.py /usr/local/bin/fop
      ```
 
 **That's it! You have successfully installed the Find Open Ports (fop) script.**---
