@@ -1,13 +1,13 @@
 
 ## How can i use this?
-This is a standard Python script, so it should work on Windows, Mac, and Linux. However, I have only tested it on Ubuntu.
+This is a standard Python script, so it should work on Windows, Mac, and Linux. However, I have only tested it on Ubuntu and Mac.
 
 
 ---
 
 ## How to Install
 
-1. **Update your package list:**
+1. **Update your package list (no need on Mac):**
 
    ```
    sudo apt update
@@ -18,14 +18,19 @@ This is a standard Python script, so it should work on Windows, Mac, and Linux. 
    ```
    sudo apt-get install python3
    ```
+for Mac users:
+   ```
+   brew install python3
+   ```
 
 3. **Install pip:**
 
    ```
    sudo apt-get install python3-pip
    ```
+No need for that on mac
 
-4. **Install Scapy:**
+4. **Install Scapy (same for mac and win):**
 
    ```
    pip3 install scapy
@@ -43,7 +48,7 @@ This is a standard Python script, so it should work on Windows, Mac, and Linux. 
 
    For all other systems, you can now proceed to the "How to Use" section.
 
-6. **For Linux users:**
+6. **For Linux and Mac users:**
 
    - Make the script executable:
 
@@ -138,4 +143,6 @@ Done!
 #### Will you ever make a full macOS version of this?
 
 You can always use the Python option on macOS. Since macOS is UNIX-based, the process should be similar. Install [Homebrew](https://brew.sh/) and use `brew install [...]` to set up everything. All other steps should be the same.
+UPDATE: used my mac to test it... and it worked. You need brew just for python3 and nothing more... the rest is the same
+
 
